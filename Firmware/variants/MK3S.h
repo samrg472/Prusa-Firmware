@@ -67,7 +67,8 @@
 #define Z_MIN_POS 0.15
 
 // Z height correction value
-#define Z_MAX_POS_XYZ_CALIBRATION_CORRECTION 9
+// Default is 9, changed to 2 for the bear frame
+#define Z_MAX_POS_XYZ_CALIBRATION_CORRECTION 2
 
 // Canceled home position
 #define X_CANCEL_POS 50
@@ -430,7 +431,7 @@
  HOST FEATURES
  *------------------------------------*/
 
-// Uncomment if the host supports '//action:shutdown'. It will add "Shutdown host" to the LCD meun. 
+// Uncomment if the host supports '//action:shutdown'. It will add "Shutdown host" to the LCD meun.
 //#define HOST_SHUTDOWN
 
 // Uncomment if the host doesn't support '//action:ready' & '//action:notready'.
